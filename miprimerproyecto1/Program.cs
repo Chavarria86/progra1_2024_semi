@@ -23,6 +23,7 @@ namespace miprimerproyecto1
             //pausa.
             Console.ReadLine();
             //hola
+            jdi
         }
     }
 }
