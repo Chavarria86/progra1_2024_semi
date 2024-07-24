@@ -47,13 +47,15 @@ namespace miprimerproyecto
             Console.Write("lab6:");
             double lab6 = double.Parse(Console.ReadLine());
 
+
             Console.Write("parcial3:");
             double parcial3 = double.Parse(Console.ReadLine());
             
 
             double C3 = lab5 * 30 / 100 + lab6 * 30 / 100 + parcial3 * 40 / 100;
             Console.WriteLine("La nota de C3 es : {0}", C3);
-
+          
+            
             double NF = C1 + C2 + C3 / 3;
             Console.WriteLine("La nota Final de la materia es :{0}" ,NF);
 
