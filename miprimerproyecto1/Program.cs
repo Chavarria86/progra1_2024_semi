@@ -22,6 +22,7 @@ namespace miprimerproyecto1
             Console.WriteLine("La suma es. {0} eñ promedio{1}", suma, prom);
             //pausa.
             Console.ReadLine();
+            //hola
         }
     }
 }
