@@ -10,20 +10,32 @@ namespace miprimerproyecto1
     {
         static void Main(string[] args)
         {
-            //Prioridad de los operadores aritmeticos.
-            // ejercicio obtener el promedio de una serie de numeros.
-            int[] serie = new int[] { 5, 4, 6, 8, 9 };
-            int suma = 0;
-            foreach (int num in serie)
+            //obtener la secuencia fibonacci
+            int a = 0, b = 1, c = 1;
+            /*
+             a+b=c
+             0+1=1
+             1+0=1
+             1+1=2
+             2+1=3
+             3+2=5
+             5+3=8
+             8+5=13
+            ...
+             */
+            while (c < 100)
             {
-                suma += num;
+                Console.WriteLine("{0}+{1}={2}", a, b, c);
+                b = a;
+                a = c;
+                c = a + b;
+                //determinar si cada numero de la serie es para o impar.
+                int[] serie = new int[] { 5, 9, 4, 6, 3, 2 };
+                foreach (int num in serie)
+                {
+                    Console.WriteLine("El num {0} es {1}", num, num % 2 == 0 ? "Par" : "Impar");
+                }
+                Console.ReadLine();
             }
-            double prom = suma / serie.Length;
-            Console.WriteLine("La suma es. {0} eñ promedio{1}", suma, prom);
-            //pausa.
-            Console.ReadLine();
-            //hola
-            jdi
-        }
     }
 }

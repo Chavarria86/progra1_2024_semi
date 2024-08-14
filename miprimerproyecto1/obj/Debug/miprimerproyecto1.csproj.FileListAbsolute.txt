@@ -5,3 +5,7 @@ D:\Users\Estudiante\Desktop\progra1\miprimerproyecto1\bin\Debug\miprimerproyecto
 D:\Users\Estudiante\Desktop\progra1\miprimerproyecto1\bin\Debug\miprimerproyecto1.pdb
 D:\Users\Estudiante\Desktop\progra1\miprimerproyecto1\obj\Debug\miprimerproyecto1.exe
 D:\Users\Estudiante\Desktop\progra1\miprimerproyecto1\obj\Debug\miprimerproyecto1.pdb
+D:\Users\Estudiante\Deskto\progra1\miprimerproyecto\miprimerproyecto1\obj\Debug\miprimerproyecto1.csproj.AssemblyReference.cache
+D:\Users\Estudiante\Deskto\progra1\miprimerproyecto\miprimerproyecto1\obj\Debug\miprimerproyecto1.csproj.CoreCompileInputs.cache
+D:\Users\Estudiante\Deskto\progra1\miprimerproyecto\miprimerproyecto1\obj\Debug\miprimerproyecto1.exe
+D:\Users\Estudiante\Deskto\progra1\miprimerproyecto\miprimerproyecto1\obj\Debug\miprimerproyecto1.pdb
