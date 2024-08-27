@@ -5,3 +5,10 @@ C:\Users\MINEDUCYT\Desktop\programa1\miprimerproyecto\miprimerproyecto\obj\Debug
 C:\Users\MINEDUCYT\Desktop\programa1\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.csproj.CoreCompileInputs.cache
 C:\Users\MINEDUCYT\Desktop\programa1\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.exe
 C:\Users\MINEDUCYT\Desktop\programa1\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.pdb
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.exe
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\obj\Debug\miprimerproyecto.pdb
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\bin\Debug\miprimerproyecto.exe.config
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\bin\Debug\miprimerproyecto.exe
+C:\Users\MINEDUCYT\Deskto\c#\miprimerproyecto\miprimerproyecto\bin\Debug\miprimerproyecto.pdb
