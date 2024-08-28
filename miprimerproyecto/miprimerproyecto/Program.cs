@@ -40,7 +40,7 @@ namespace miprimerproyecto
                             {0.14, 0.13, 0.12, 20.62, 5.2, 0.11, 0.19, 0.21, 1, 11.71},
                             {0.012, 0.011, 0.0097, 1.77, 0.22, 0.0094, 0.016, 0.018, 0.085, 1}
                         });
-                        break; //lo que hace es que el bucle termine inmediatamente.
+                        break; 
                     case 2:
                         Conversor("Masa", new string[] { "Gramo", "Kilogramo", "Miligramo", "Tonelada", "Libra", "Onza", "Stone", "Quintal", "Grano", "Microgramo" },
                             new double[,] {
@@ -55,7 +55,7 @@ namespace miprimerproyecto
                             {0.0647989, 6.4799e-5, 64.7989, 6.48e-8, 0.000142857, 0.00228571, 1.02041e-5, 6.4799e-7, 1, 6.4799e+4},
                             {1e-6, 1e-9, 1, 1e-12, 2.20462e-9, 3.5274e-8, 1.57473e-10, 1e-11, 1e-6, 1}
                         });
-                        break; //lo que hace es que el bucle termine inmediatamente.
+                        break; 
                     case 3:
                         Conversor("Volumen", new string[] { "Litro", "Mililitro", "Metro cúbico", "Centímetro cúbico", "Galón", "Onza líquida", "Pinta", "Cuarto de galón", "Taza", "Barril" },
                             new double[,] {
@@ -70,22 +70,24 @@ namespace miprimerproyecto
                             {0.236588, 236.588, 0.000236588, 236.588, 0.0625, 8, 0.5, 0.25, 1, 0.002},
                             {115.627, 115627, 0.115627, 115627, 31.5, 3968, 248, 124, 496, 1}
                         });
-                        break;//lo que hace es que el bucle termine inmediatamente. :)
+                        break;
                     case 4:
                         Conversor("Longitud", new string[] { "Metro", "Kilómetro", "Centímetro", "Milímetro", "Milla", "Yarda", "Pulgada", "Pie", "Milla náutica", "Micrómetro" },
                             new double[,] {
-                            {1, 0.001, 100, 1000, 0.000621371, 1.09361, 39.3701, 3.28084, 0.000539957, 1e+6},
-                            {1000, 1, 100000, 1000000, 0.621371, 1093.61, 39370.1, 3280.84, 0.539957, 1e+9},
-                            {0.01, 1e-5, 1, 10, 6.21371e-6, 10.9361, 393.701, 32.8084, 5.39957e-4, 10000},
-                            {0.001, 1e-6, 0.1, 1, 6.21371e-7, 1.09361, 39.3701, 3.28084, 5.39957e-5, 1000},
-                            {1609.34, 1.60934, 160934, 1609340, 1, 1760, 63360, 5280, 1.15078, 1.60934e+9},
-                            {0.9144, 0.0009144, 91.44, 914.4, 0.000568182, 1, 36, 3, 0.000491823, 914400},
-                            {0.0254, 2.54e-5, 2.54, 25.4, 1.5783e-5, 0.0277778, 1, 0.0833333, 0.0000145, 25400},
-                            {0.3048, 0.0003048, 30.48, 304.8, 0.000189394, 0.333333, 12, 1, 0.00009144, 304800},
-                            {1852, 1.852, 185200, 1852000, 1.15078, 2025.37, 72600, 6060, 1, 1.852e+6},
-                            {1e-6, 1e-9, 1e-4, 1e-7, 6.21371e-10, 1.09361e-7, 3.937e-5, 3.2808e-4, 1.8e-7, 1}
+                           {1, 0.001, 100, 1000, 0.000621371, 1.09361, 39.3701, 3.28084, 0.000539957, 1e+6},
+                           {1000, 1, 100000, 1000000, 0.621371, 1093.61, 39370.1, 3280.84, 0.539957, 1e+9},
+                           {0.01, 1e-5, 1, 10, 6.21371e-6, 10.9361, 393.701, 32.8084, 5.39957e-4, 10000},
+                           {0.001, 1e-6, 0.1, 1, 6.21371e-7, 1.09361, 39.3701, 3.28084, 5.39957e-5, 1000},
+                           {1609.34, 1.60934, 160934, 1609340, 1, 1760, 63360, 5280, 1.15078, 1.60934e+9},
+                           {0.9144, 0.0009144, 91.44, 914.4, 0.000568182, 1, 36, 3, 0.000491823, 914400},
+                           {0.0254, 2.54e-5, 2.54, 25.4, 1.5783e-5, 0.0277778, 1, 0.0833333, 0.0000145, 25400},
+                           {0.3048, 0.0003048, 30.48, 304.8, 0.000189394, 0.333333, 12, 1, 0.00009144, 304800},
+                           {1852, 1.852, 185200, 1852000, 1.15078, 2025.37, 72600, 6060, 1, 1.852e+6},
+                           {1e-6, 1e-9, 1e-4, 1e-7, 6.21371e-10, 1.09361e-7, 3.937e-5, 3.2808e-4, 1.8e-7, 1}
+
+
                         });
-                        break;//lo que hace es que el bucle termine inmediatamente.
+                        break;
                     case 5:
                         Conversor("Almacenamiento", new string[] { "Byte", "Kilobyte", "Megabyte", "Gigabyte", "Terabyte", "Petabyte", "Exabyte", "Zettabyte", "Yottabyte", "Nibble" },
                         new double[,] {
@@ -100,7 +102,7 @@ namespace miprimerproyecto
                                 {1e+24, 1e+21, 1e+18, 1e+15, 1e+12, 1e+9, 1e+6, 1000, 1, 5e+23},
                                 {2, 0.002, 2e-6, 2e-9, 2e-12, 2e-15, 2e-18, 2e-21, 2e-24, 1}
                         });
-                        break; //lo que hace es que el bucle termine inmediatamente.
+                        break; 
                     case 6:
                         Conversor("Tiempo", new string[] { "Segundo", "Minuto", "Hora", "Día", "Semana", "Mes", "Año", "Decenio", "Siglo", "Milenio" },
                             new double[,] {
@@ -115,7 +117,7 @@ namespace miprimerproyecto
                             {3153600000, 52560000, 876000, 36500, 5214.29, 1200, 100, 10, 1, 0.1},
                             {31536000000, 525600000, 8760000, 365000, 52142.9, 12000, 1000, 100, 10, 1}
                         });
-                        break; //lo que hace es que el bucle termine inmediatamente.
+                        break; 
                     case 7:
                         continuar = false;
                         Console.WriteLine("¡Gracias por tu trabajo!");
@@ -132,26 +134,26 @@ namespace miprimerproyecto
             Console.Clear();
             Console.WriteLine($"Conversor de {tipo}");
             Console.WriteLine("Unidades disponibles para escoger:");
-            for (int i = 0; i < unidades.Length; i++)     // en esta defino e inicializo una variable de control del bucle, lo que sera entero
+            for (int i = 0; i < unidades.Length; i++)     
             {
                 Console.WriteLine($"{i + 1}. {unidades[i]}");
             }
 
-            // Solicita al usuario la unidad de origen
+
             Console.Write("Selecciona la unidad que usaras: ");
             int origen = int.Parse(Console.ReadLine()) - 1;
 
-            // Solicita al usuario la unidad del destino
+            
             Console.Write("Selecciona la unidad  en la que lo convertiras: ");
             int destino = int.Parse(Console.ReadLine()) - 1;
 
-            // Solicita al usuario el valor a convertir
+            
             Console.Write("Introduce el dato a convertir: ");
             double valor = double.Parse(Console.ReadLine());
 
-            // Y este Realizara la conversión utilizando la matriz de las conversiones
-            double resultado = valor * conversiones[origen, destino];
-            Console.WriteLine($"{valor} {unidades[origen]} = {resultado} {unidades[destino]}");
+            
+            double total = valor * conversiones[origen, destino];
+            Console.WriteLine($"{valor} {unidades[origen]} = {total} {unidades[destino]}");
             Console.WriteLine("Presiona cualquier tecla del teclado para continuar...");
             Console.ReadKey();
         }
